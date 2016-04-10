@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+
+#dir_list{
+text-align: center;    
+
+}
+
+.dir_card{
+    width: 100%;
+    background: #efefef;
+    border: #999 1px solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+
+    
+    @media screen and (min-width: 620px){
+        .dir_card .contact, .dir_card .img{
+             width: 45%;
+        }
+    }
+
+
+.entry-content .dir_card h3{
+    font: 2.2rem 'Righteous', cursive!important;
+    margin-bottom: .5rem;
+}
+
+.dir_card strong{
+    font: 90% 'Righteous', cursive;;
+}
+
+.inline{
+    display: inline-block; 
+    vertical-align: top;
+    margin: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #fff;
+    color: #316799;
+    border: 1px solid #316799;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 1rem;
+    transition: border, .6s, ease-in;
+    box-shadow: none!important;
+}
+
+.btn:hover{
+    border: 1px solid transparent;
+    color: #fff;
+    transition: border, .6s, ease-in;
+    background-color: #316799
+}
+
